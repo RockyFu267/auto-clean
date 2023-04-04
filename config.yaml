@@ -1,0 +1,24 @@
+# 启动命令 进入到auto-start所在的目录 先赋权 chmod 777 auto-start
+# nohup ./auto-clean &
+# 观察nohup.out日志文件可以看到执行记录
+# 问题反馈https://github.com/RockyFu267/auto-clean
+
+###############################################################
+
+# 扫描间隔时间 单位秒
+interval: 60
+service:
+    # 间隔秒数 1分钟 60  1小时 3600 1天 86400 3天 259200 1周 604800 根据需求自行计算填写
+  - cyclelength: 604800
+    # 服务启动脚本路径   
+    cleanpath: /Users/xxx/Desktop/code/github/auto-clean/test/
+    # 要匹配的文件前缀
+    cleanname: zzzzzyyyyy
+  # - port: 604800
+  #   cleanpath: /app/pmdata/bin/30021-start.sh
+  # - port: 604800
+  #   cleanpath: /app/pmdata/bin/30031-start.sh
+  # - port: 604800
+  #   cleanpath: /app/pmdata/bin/30041-start.sh
+  # - port: 604800
+  #   cleanpath: /app/pmdata/bin/54257-mongos-start.sh
