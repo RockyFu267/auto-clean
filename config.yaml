@@ -15,10 +15,10 @@ service:
     # 要匹配的文件前缀
     cleanname: zzzzzyyyyy
   # - port: 604800
-  #   cleanpath: /app/pmdata/bin/30021-start.sh
+  #   cleanpath: /app//bin/
   # - port: 604800
-  #   cleanpath: /app/pmdata/bin/30031-start.sh
+  #   cleanpath: /app/xxxx/bin/
   # - port: 604800
-  #   cleanpath: /app/pmdata/bin/30041-start.sh
+  #   cleanpath: /app/xxxxx/bin/
   # - port: 604800
-  #   cleanpath: /app/pmdata/bin/54257-mongos-start.sh
+  #   cleanpath: /app/xxxxx/bin/
